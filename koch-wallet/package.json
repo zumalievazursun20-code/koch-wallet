@@ -1,0 +1,23 @@
+{
+  "name": "koch-wallet",
+  "version": "1.0.0",
+  "description": "Koch Wallet - Telegram Mini App Electronic Wallet with Admin Panel, Loans and Interest",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["telegram", "mini-app", "wallet", "koch"],
+  "author": "Koch Wallet",
+  "license": "MIT"
+}
